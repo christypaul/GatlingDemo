@@ -1,0 +1,16 @@
+RUN	S01_JPet_Store_Addtocart_Execution	s01-jpet-store-addtocart-execution	1617170949066	 	3.4.1
+ERROR	request_0: Failed to build request: DnsNameResolver missing from Session 	1617170961872
+GROUP	PetStore_S01_PetSearch_T01_LaunchURL	1617170961859	1617170961877	0	KO
+USER	RecordedSimulationAssignment	START	1617170961841
+ERROR	request_16: Failed to build request: DnsNameResolver missing from Session 	1617170966881
+ERROR	request_27: Failed to build request: DnsNameResolver missing from Session 	1617170977883
+GROUP	PetStore_S01_PetSearch_T02_Login	1617170966881	1617170977883	0	KO
+ERROR	request_31: Failed to build request: DnsNameResolver missing from Session 	1617170982884
+GROUP	PetStore_S01_PetSearch_T03_SearchPet	1617170982884	1617170982885	0	KO
+ERROR	request_37: Failed to build request: No attribute named 'C_ItemID' is defined 	1617170987890
+GROUP	PetStore_S01_PetSearch_T04_SelectPet_View	1617170987885	1617170987890	0	KO
+ERROR	request_41: Failed to build request: DnsNameResolver missing from Session 	1617170992891
+GROUP	PetStore_S01_PetSearch_T05_AddtCart	1617170992890	1617170992891	0	KO
+ERROR	request_48: Failed to build request: DnsNameResolver missing from Session 	1617170997892
+GROUP	PetStore_S01_PetSearch_T06_Logout	1617170997891	1617170997892	0	KO
+USER	RecordedSimulationAssignment	END	1617170997894

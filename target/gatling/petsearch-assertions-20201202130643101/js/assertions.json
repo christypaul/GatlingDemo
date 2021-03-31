@@ -1,0 +1,27 @@
+{
+  "simulation": "sample.petsearch_Assertions",
+  "simulationId": "petsearch-assertions",
+  "start": 1606914403101,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 8000.0",
+  "actualValue": [1265.0]
+},
+{
+  "path": "Logout_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(Logout_1)",
+  "actualValue": [-1.0]
+}
+  ]
+}

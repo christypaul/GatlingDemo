@@ -1,0 +1,801 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 5,
+        "ok": 2,
+        "ko": 3
+    },
+    "minResponseTime": {
+        "total": 323,
+        "ok": 323,
+        "ko": 609
+    },
+    "maxResponseTime": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 903
+    },
+    "meanResponseTime": {
+        "total": 1275,
+        "ok": 2111,
+        "ko": 718
+    },
+    "standardDeviation": {
+        "total": 1324,
+        "ok": 1788,
+        "ko": 132
+    },
+    "percentiles1": {
+        "total": 641,
+        "ok": 2111,
+        "ko": 641
+    },
+    "percentiles2": {
+        "total": 903,
+        "ok": 3004,
+        "ko": 772
+    },
+    "percentiles3": {
+        "total": 3299,
+        "ok": 3719,
+        "ko": 877
+    },
+    "percentiles4": {
+        "total": 3778,
+        "ok": 3862,
+        "ko": 898
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 20
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 20
+},
+    "group4": {
+    "name": "failed",
+    "count": 3,
+    "percentage": 60
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.7142857142857143,
+        "ok": 0.2857142857142857,
+        "ko": 0.42857142857142855
+    }
+},
+"contents": {
+"group_petstore-s01-pe-51a38": {
+          "type": "GROUP",
+"name": "PetStore_S01_PetSearch_101_LaunchURL",
+"path": "PetStore_S01_PetSearch_101_LaunchURL",
+"pathFormatted": "group_petstore-s01-pe-51a38",
+"stats": {
+    "name": "PetStore_S01_PetSearch_101_LaunchURL",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0.14285714285714285,
+        "ko": 0
+    }
+},
+"contents": {
+"req_launchurl-1-56854": {
+        "type": "REQUEST",
+        "name": "LaunchURL_1",
+"path": "PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1",
+"pathFormatted": "req_petstore-s01-pe-b25c7",
+"stats": {
+    "name": "LaunchURL_1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 3898,
+        "ok": 3898,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0.14285714285714285,
+        "ko": 0
+    }
+}
+    }
+}
+
+     },"group_petstore-s01-pe-4b0dc": {
+          "type": "GROUP",
+"name": "PetStore_S01_PetSearch_102_Login",
+"path": "PetStore_S01_PetSearch_102_Login",
+"pathFormatted": "group_petstore-s01-pe-4b0dc",
+"stats": {
+    "name": "PetStore_S01_PetSearch_102_Login",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 1226,
+        "ok": 0,
+        "ko": 1226
+    },
+    "maxResponseTime": {
+        "total": 1226,
+        "ok": 0,
+        "ko": 1226
+    },
+    "meanResponseTime": {
+        "total": 1226,
+        "ok": 0,
+        "ko": 1226
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 1226,
+        "ok": 0,
+        "ko": 1226
+    },
+    "percentiles2": {
+        "total": 1226,
+        "ok": 0,
+        "ko": 1226
+    },
+    "percentiles3": {
+        "total": 1226,
+        "ok": 0,
+        "ko": 1226
+    },
+    "percentiles4": {
+        "total": 1226,
+        "ok": 0,
+        "ko": 1226
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0,
+        "ko": 0.14285714285714285
+    }
+},
+"contents": {
+"req_login-1-3a5b5": {
+        "type": "REQUEST",
+        "name": "Login_1",
+"path": "PetStore_S01_PetSearch_102_Login / Login_1",
+"pathFormatted": "req_petstore-s01-pe-dde9c",
+"stats": {
+    "name": "Login_1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 323,
+        "ok": 323,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 323,
+        "ok": 323,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 323,
+        "ok": 323,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 323,
+        "ok": 323,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 323,
+        "ok": 323,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 323,
+        "ok": 323,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 323,
+        "ok": 323,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0.14285714285714285,
+        "ko": 0
+    }
+}
+    },"req_login-2-2a593": {
+        "type": "REQUEST",
+        "name": "Login_2",
+"path": "PetStore_S01_PetSearch_102_Login / Login_2",
+"pathFormatted": "req_petstore-s01-pe-22b95",
+"stats": {
+    "name": "Login_2",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 903,
+        "ok": 0,
+        "ko": 903
+    },
+    "maxResponseTime": {
+        "total": 903,
+        "ok": 0,
+        "ko": 903
+    },
+    "meanResponseTime": {
+        "total": 903,
+        "ok": 0,
+        "ko": 903
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 903,
+        "ok": 0,
+        "ko": 903
+    },
+    "percentiles2": {
+        "total": 903,
+        "ok": 0,
+        "ko": 903
+    },
+    "percentiles3": {
+        "total": 903,
+        "ok": 0,
+        "ko": 903
+    },
+    "percentiles4": {
+        "total": 903,
+        "ok": 0,
+        "ko": 903
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0,
+        "ko": 0.14285714285714285
+    }
+}
+    }
+}
+
+     },"group_petstore-s01-pe-e370c": {
+          "type": "GROUP",
+"name": "PetStore_S01_PetSearch_103_Searchfish",
+"path": "PetStore_S01_PetSearch_103_Searchfish",
+"pathFormatted": "group_petstore-s01-pe-e370c",
+"stats": {
+    "name": "PetStore_S01_PetSearch_103_Searchfish",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "maxResponseTime": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "meanResponseTime": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "percentiles2": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "percentiles3": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "percentiles4": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0,
+        "ko": 0.14285714285714285
+    }
+},
+"contents": {
+"req_searchfish-1-06a20": {
+        "type": "REQUEST",
+        "name": "Searchfish_1",
+"path": "PetStore_S01_PetSearch_103_Searchfish / Searchfish_1",
+"pathFormatted": "req_petstore-s01-pe-7e5eb",
+"stats": {
+    "name": "Searchfish_1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "maxResponseTime": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "meanResponseTime": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "percentiles2": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "percentiles3": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "percentiles4": {
+        "total": 641,
+        "ok": 0,
+        "ko": 641
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0,
+        "ko": 0.14285714285714285
+    }
+}
+    }
+}
+
+     },"group_petstore-s01-pe-43fec": {
+          "type": "GROUP",
+"name": "PetStore_S01_PetSearch_106_Logout",
+"path": "PetStore_S01_PetSearch_106_Logout",
+"pathFormatted": "group_petstore-s01-pe-43fec",
+"stats": {
+    "name": "PetStore_S01_PetSearch_106_Logout",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "maxResponseTime": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "meanResponseTime": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "percentiles2": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "percentiles3": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "percentiles4": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0,
+        "ko": 0.14285714285714285
+    }
+},
+"contents": {
+"req_logout-1-16f80": {
+        "type": "REQUEST",
+        "name": "Logout_1",
+"path": "PetStore_S01_PetSearch_106_Logout / Logout_1",
+"pathFormatted": "req_petstore-s01-pe-8da76",
+"stats": {
+    "name": "Logout_1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "maxResponseTime": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "meanResponseTime": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "percentiles2": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "percentiles3": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "percentiles4": {
+        "total": 609,
+        "ok": 0,
+        "ko": 609
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.14285714285714285,
+        "ok": 0,
+        "ko": 0.14285714285714285
+    }
+}
+    }
+}
+
+     }
+}
+
+}

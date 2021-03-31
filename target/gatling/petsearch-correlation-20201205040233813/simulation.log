@@ -1,0 +1,12 @@
+RUN	sample.petsearch_Correlation	petsearch-correlation	1607140953813	 	3.4.1
+USER	petsearch	START	1607140956094
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	LaunchURL_1	1607140956223	1607140957577	OK	 
+GROUP	PetStore_S01_PetSearch_101_LaunchURL	1607140956114	1607140957808	1354	OK
+ERROR	Login_1: Failed to build request: No attribute named 'C_jsessionId' is defined 	1607140957817
+ERROR	Login_2: Failed to build request: No attribute named 'C_ViewState' is defined 	1607140957833
+GROUP	PetStore_S01_PetSearch_102_Login	1607140957810	1607140957834	0	KO
+ERROR	Searchfish_1: Failed to build request: No attribute named 'C_ViewState' is defined 	1607140957834
+GROUP	PetStore_S01_PetSearch_103_SearchGoldfish	1607140957834	1607140957835	0	KO
+ERROR	Logout_1: Failed to build request: No attribute named 'C_ViewState' is defined 	1607140957835
+GROUP	PetStore_S01_PetSearch_106_Logout	1607140957835	1607140957835	0	KO
+USER	petsearch	END	1607140957853

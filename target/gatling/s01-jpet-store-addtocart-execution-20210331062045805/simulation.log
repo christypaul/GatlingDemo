@@ -1,0 +1,34 @@
+RUN	S01_JPet_Store_Addtocart_Execution	s01-jpet-store-addtocart-execution	1617171645805	 	3.4.1
+USER	AddToCart	START	1617171659540
+REQUEST	PetStore_AddToCartT01_LaunchURL	LaunchURL_1	1617171659575	1617171660457	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	sticky-footer-navbar.css.xhtml;jsessionid=0NHgcKX7sSyv0FWBQ1qqhjBOT6-8PK1A51g89hW-.ip-172-31-82-187	1617171660644	1617171661212	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	style.css.xhtml;jsessionid=0NHgcKX7sSyv0FWBQ1qqhjBOT6-8PK1A51g89hW-.ip-172-31-82-187	1617171660654	1617171661289	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	favicon.gif.xhtml	1617171660656	1617171661295	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	theme.css.xhtml?ln=primefaces-bootstrap	1617171660646	1617171661524	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	font-awesome.css.xhtml?ln=primefaces&v=6.1	1617171660649	1617171661547	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	font-awesome.css.xhtml;jsessionid=0NHgcKX7sSyv0FWBQ1qqhjBOT6-8PK1A51g89hW-.ip-172-31-82-187?ln=webjars	1617171660658	1617171661757	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	jquery.min.js.xhtml;jsessionid=0NHgcKX7sSyv0FWBQ1qqhjBOT6-8PK1A51g89hW-.ip-172-31-82-187?ln=webjars	1617171660640	1617171661760	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	bootstrap.min.js.xhtml;jsessionid=0NHgcKX7sSyv0FWBQ1qqhjBOT6-8PK1A51g89hW-.ip-172-31-82-187?ln=webjars	1617171660642	1617171661778	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	splash.gif.xhtml	1617171660653	1617171661779	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	jsf.js.xhtml;jsessionid=0NHgcKX7sSyv0FWBQ1qqhjBOT6-8PK1A51g89hW-.ip-172-31-82-187?ln=javax.faces	1617171660657	1617171661803	OK	 
+REQUEST	PetStore_AddToCartT01_LaunchURL	bootstrap.min.css.xhtml;jsessionid=0NHgcKX7sSyv0FWBQ1qqhjBOT6-8PK1A51g89hW-.ip-172-31-82-187?ln=webjars	1617171660651	1617171662345	OK	 
+GROUP	PetStore_AddToCartT01_LaunchURL	1617171659545	1617171662349	2602	OK
+REQUEST	PetStore_AddToCartT02_Login	Login_1	1617171664354	1617171664643	OK	 
+REQUEST	PetStore_AddToCartT02_Login	sticky-footer-navbar.css.xhtml	1617171664655	1617171664948	OK	 
+REQUEST	PetStore_AddToCartT02_Login	style.css.xhtml	1617171664660	1617171664950	OK	 
+REQUEST	PetStore_AddToCartT02_Login	jsf.js.xhtml?ln=javax.faces	1617171664659	1617171665208	OK	 
+REQUEST	PetStore_AddToCartT02_Login	bootstrap.min.js.xhtml?ln=webjars	1617171664656	1617171665490	OK	 
+REQUEST	PetStore_AddToCartT02_Login	font-awesome.css.xhtml?ln=webjars	1617171664653	1617171665491	OK	 
+REQUEST	PetStore_AddToCartT02_Login	jquery.min.js.xhtml?ln=webjars	1617171664662	1617171665773	OK	 
+REQUEST	PetStore_AddToCartT02_Login	bootstrap.min.css.xhtml?ln=webjars	1617171664658	1617171665781	OK	 
+REQUEST	PetStore_AddToCartT02_Login	Login_2	1617171665787	1617171666404	OK	 
+GROUP	PetStore_AddToCartT02_Login	1617171664353	1617171666412	2038	OK
+ERROR	request_31: Failed to build request: No attribute named 'C_ViewState1' is defined 	1617171668415
+GROUP	PetStore_AddToCartT03_SearchPet	1617171668414	1617171668416	0	KO
+ERROR	request_37: Failed to build request: No attribute named 'C_ItemID' is defined 	1617171670419
+GROUP	PetStore_AddToCartT04_SelectPet_View	1617171670416	1617171670420	0	KO
+ERROR	request_41: Failed to build request: No attribute named 'C_ViewState2' is defined 	1617171675421
+GROUP	PetStore_AddToCartT05_AddtCart	1617171675420	1617171675421	0	KO
+ERROR	request_48: Failed to build request: No attribute named 'C_ViewState3' is defined 	1617171680422
+GROUP	PetStore_AddToCartT06_Logout	1617171680421	1617171680422	0	KO
+USER	AddToCart	END	1617171680425

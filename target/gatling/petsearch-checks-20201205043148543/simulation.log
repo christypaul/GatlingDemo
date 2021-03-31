@@ -1,0 +1,12 @@
+RUN	sample.petsearch_Checks	petsearch-checks	1607142708543	 	3.4.1
+USER	petsearch	START	1607142710805
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	LaunchURL_1	1607142710857	1607142711980	KO	j.u.r.PatternSyntaxException: Dangling meta character '*' near index 0  *.shopping/main.*  ^
+GROUP	PetStore_S01_PetSearch_101_LaunchURL	1607142710812	1607142712066	1123	KO
+ERROR	Login_1: Failed to build request: No attribute named 'C_jsessionId' is defined 	1607142712074
+ERROR	Login_2: Failed to build request: No attribute named 'C_ViewState' is defined 	1607142712083
+GROUP	PetStore_S01_PetSearch_102_Login	1607142712068	1607142712083	0	KO
+ERROR	Searchfish_1: Failed to build request: No attribute named 'C_ViewState' is defined 	1607142712084
+GROUP	PetStore_S01_PetSearch_103_Searchfish	1607142712084	1607142712084	0	KO
+ERROR	Logout_1: Failed to build request: No attribute named 'C_ViewState' is defined 	1607142712084
+GROUP	PetStore_S01_PetSearch_106_Logout	1607142712084	1607142712084	0	KO
+USER	petsearch	END	1607142712093

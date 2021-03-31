@@ -1,0 +1,10 @@
+{
+  "simulation": "sample.petsearch_PausePacing",
+  "simulationId": "petsearch-pausepacing",
+  "start": 1606915066957,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+
+  ]
+}

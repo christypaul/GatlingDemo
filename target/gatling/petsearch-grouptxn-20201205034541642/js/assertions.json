@@ -1,0 +1,10 @@
+{
+  "simulation": "sample.petsearch_GroupTxn",
+  "simulationId": "petsearch-grouptxn",
+  "start": 1607139941642,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+
+  ]
+}

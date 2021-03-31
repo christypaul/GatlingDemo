@@ -1,0 +1,10 @@
+{
+  "simulation": "Petstore_Addtocart",
+  "simulationId": "petstore-addtocart",
+  "start": 1617174286782,
+  "description": "",
+  "scenarios": ["AddToCart"],
+  "assertions": [
+
+  ]
+}

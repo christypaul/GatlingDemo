@@ -1,0 +1,5 @@
+<testsuite name="sample.petsearch_Assertions" tests="1" errors="0" failures="1" time="0">
+<testcase name="Could not find stats matching assertion path List(LaunchURL_1)" status="false" time="0">
+  <failure type="LaunchURL_1">Actual value: -1.0</failure>
+</testcase>
+</testsuite>

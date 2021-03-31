@@ -1,0 +1,10 @@
+{
+  "simulation": "Petstore_Basic",
+  "simulationId": "petstore-basic",
+  "start": 1617180579964,
+  "description": "",
+  "scenarios": ["Basic"],
+  "assertions": [
+
+  ]
+}

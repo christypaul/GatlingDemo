@@ -1,0 +1,18 @@
+{
+  "simulation": "sample.petsearch_Assertions",
+  "simulationId": "petsearch-assertions",
+  "start": 1608111863511,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+{
+  "path": "Logout_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(Logout_1)",
+  "actualValue": [-1.0]
+}
+  ]
+}

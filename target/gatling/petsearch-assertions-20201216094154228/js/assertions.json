@@ -1,0 +1,72 @@
+{
+  "simulation": "sample.petsearch_Assertions",
+  "simulationId": "petsearch-assertions",
+  "start": 1608111714228,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "Global: max of response time is less than 1000.0",
+  "actualValue": [1369.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1: max of response time is less than 2000.0",
+  "actualValue": [1295.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_102_Login / Login_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_102_Login / Login_1: max of response time is less than 2000.0",
+  "actualValue": [336.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_102_Login / Login_2",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_102_Login / Login_2: max of response time is less than 2000.0",
+  "actualValue": [1369.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_103_Searchfish / Searchfish_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_103_Searchfish / Searchfish_1: max of response time is less than 2000.0",
+  "actualValue": [1113.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_103_Searchfish / request_33",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_103_Searchfish / request_33: max of response time is less than 2000.0",
+  "actualValue": [267.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_106_Logout / Logout_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_106_Logout / Logout_1: max of response time is less than 2000.0",
+  "actualValue": [1004.0]
+}
+  ]
+}

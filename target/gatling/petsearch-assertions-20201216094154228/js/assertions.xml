@@ -1,0 +1,23 @@
+<testsuite name="sample.petsearch_Assertions" tests="7" errors="0" failures="1" time="0">
+<testcase name="Global: max of response time is less than 1000.0" status="false" time="0">
+  <failure type="Global">Actual value: 1369.0</failure>
+</testcase>
+<testcase name="PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1: max of response time is less than 2000.0" status="true" time="0">
+  <system-out>PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1: max of response time is less than 2000.0</system-out>
+</testcase>
+<testcase name="PetStore_S01_PetSearch_102_Login / Login_1: max of response time is less than 2000.0" status="true" time="0">
+  <system-out>PetStore_S01_PetSearch_102_Login / Login_1: max of response time is less than 2000.0</system-out>
+</testcase>
+<testcase name="PetStore_S01_PetSearch_102_Login / Login_2: max of response time is less than 2000.0" status="true" time="0">
+  <system-out>PetStore_S01_PetSearch_102_Login / Login_2: max of response time is less than 2000.0</system-out>
+</testcase>
+<testcase name="PetStore_S01_PetSearch_103_Searchfish / Searchfish_1: max of response time is less than 2000.0" status="true" time="0">
+  <system-out>PetStore_S01_PetSearch_103_Searchfish / Searchfish_1: max of response time is less than 2000.0</system-out>
+</testcase>
+<testcase name="PetStore_S01_PetSearch_103_Searchfish / request_33: max of response time is less than 2000.0" status="true" time="0">
+  <system-out>PetStore_S01_PetSearch_103_Searchfish / request_33: max of response time is less than 2000.0</system-out>
+</testcase>
+<testcase name="PetStore_S01_PetSearch_106_Logout / Logout_1: max of response time is less than 2000.0" status="true" time="0">
+  <system-out>PetStore_S01_PetSearch_106_Logout / Logout_1: max of response time is less than 2000.0</system-out>
+</testcase>
+</testsuite>

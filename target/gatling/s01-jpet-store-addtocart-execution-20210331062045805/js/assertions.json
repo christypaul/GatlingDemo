@@ -1,0 +1,10 @@
+{
+  "simulation": "S01_JPet_Store_Addtocart_Execution",
+  "simulationId": "s01-jpet-store-addtocart-execution",
+  "start": 1617171645805,
+  "description": "",
+  "scenarios": ["AddToCart"],
+  "assertions": [
+
+  ]
+}

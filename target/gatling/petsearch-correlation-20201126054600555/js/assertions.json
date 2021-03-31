@@ -1,0 +1,10 @@
+{
+  "simulation": "sample.petsearch_Correlation",
+  "simulationId": "petsearch-correlation",
+  "start": 1606369560555,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+
+  ]
+}

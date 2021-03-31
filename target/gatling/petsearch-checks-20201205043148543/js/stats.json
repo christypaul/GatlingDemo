@@ -1,0 +1,243 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "maxResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "meanResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles2": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles3": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles4": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.5,
+        "ok": 0,
+        "ko": 0.5
+    }
+},
+"contents": {
+"group_petstore-s01-pe-51a38": {
+          "type": "GROUP",
+"name": "PetStore_S01_PetSearch_101_LaunchURL",
+"path": "PetStore_S01_PetSearch_101_LaunchURL",
+"pathFormatted": "group_petstore-s01-pe-51a38",
+"stats": {
+    "name": "PetStore_S01_PetSearch_101_LaunchURL",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "maxResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "meanResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles2": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles3": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles4": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.5,
+        "ok": 0,
+        "ko": 0.5
+    }
+},
+"contents": {
+"req_launchurl-1-56854": {
+        "type": "REQUEST",
+        "name": "LaunchURL_1",
+"path": "PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1",
+"pathFormatted": "req_petstore-s01-pe-b25c7",
+"stats": {
+    "name": "LaunchURL_1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "maxResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "meanResponseTime": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles2": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles3": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "percentiles4": {
+        "total": 1123,
+        "ok": 0,
+        "ko": 1123
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.5,
+        "ok": 0,
+        "ko": 0.5
+    }
+}
+    }
+}
+
+     }
+}
+
+}

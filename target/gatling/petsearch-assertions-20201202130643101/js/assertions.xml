@@ -1,0 +1,8 @@
+<testsuite name="sample.petsearch_Assertions" tests="2" errors="0" failures="1" time="0">
+<testcase name="Global: max of response time is less than 8000.0" status="true" time="0">
+  <system-out>Global: max of response time is less than 8000.0</system-out>
+</testcase>
+<testcase name="Could not find stats matching assertion path List(Logout_1)" status="false" time="0">
+  <failure type="Logout_1">Actual value: -1.0</failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,81 @@
+{
+  "simulation": "sample.petsearch_Assertions",
+  "simulationId": "petsearch-assertions",
+  "start": 1608106541824,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [10000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 10000.0",
+  "actualValue": [4260.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_101_LaunchURL / LaunchURL_1: max of response time is less than 8000.0",
+  "actualValue": [1320.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_102_Login / Login_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_102_Login / Login_1: max of response time is less than 8000.0",
+  "actualValue": [380.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_102_Login / Login_2",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_102_Login / Login_2: max of response time is less than 8000.0",
+  "actualValue": [4260.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_103_Searchfish / Searchfish_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_103_Searchfish / Searchfish_1: max of response time is less than 8000.0",
+  "actualValue": [1019.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_103_Searchfish / request_33",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_103_Searchfish / request_33: max of response time is less than 8000.0",
+  "actualValue": [402.0]
+},
+{
+  "path": "PetStore_S01_PetSearch_106_Logout / Logout_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "PetStore_S01_PetSearch_106_Logout / Logout_1: max of response time is less than 8000.0",
+  "actualValue": [952.0]
+},
+{
+  "path": "Searchfish_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(Searchfish_1)",
+  "actualValue": [-1.0]
+}
+  ]
+}

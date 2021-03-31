@@ -1,0 +1,35 @@
+RUN	sample.petsearch_Correlation	petsearch-correlation	1606226405278	 	3.4.1
+USER	petsearch	START	1606226407422
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_0	1606226407482	1606226408884	KO	regex(jsessionid=(.+?)" />).find.exists, found nothing
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_1	1606226408974	1606226409228	OK	 
+ERROR	request_3: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226409242
+ERROR	request_4: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226409242
+ERROR	request_6: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226409243
+ERROR	request_7: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226409243
+ERROR	request_8: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226409243
+ERROR	request_9: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226409243
+ERROR	request_10: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226409243
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_14	1606226409268	1606226409506	OK	 
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_13	1606226409276	1606226409786	OK	 
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_15	1606226409280	1606226409794	OK	 
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_11	1606226409281	1606226409817	OK	 
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_12	1606226409271	1606226409997	OK	 
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_2	1606226409274	1606226410016	OK	 
+REQUEST	PetStore_S01_PetSearch_101_LaunchURL	request_5	1606226409277	1606226410084	OK	 
+GROUP	PetStore_S01_PetSearch_101_LaunchURL	1606226407434	1606226410094	2491	KO
+REQUEST	PetStore_S01_PetSearch_102_Login	request_16	1606226410096	1606226410794	OK	 
+ERROR	Login_1: Failed to build request: No attribute named 'C_jsessionId' is defined 	1606226410796
+ERROR	Login: Failed to build request: No attribute named 'C_ViewState' is defined 	1606226410807
+GROUP	PetStore_S01_PetSearch_102_Login	1606226410094	1606226410807	698	KO
+REQUEST	PetStore_S01_PetSearch_103_SearchGoldfish	request_32	1606226410810	1606226411640	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+GROUP	PetStore_S01_PetSearch_103_SearchGoldfish	1606226410807	1606226411644	830	KO
+REQUEST	PetStore_S01_PetSearch_104_SelectFemalepuppy	request_37	1606226411644	1606226411902	OK	 
+REQUEST	PetStore_S01_PetSearch_104_SelectFemalepuppy	request_39	1606226411909	1606226412145	OK	 
+REQUEST	PetStore_S01_PetSearch_104_SelectFemalepuppy	request_38	1606226411912	1606226412149	OK	 
+REQUEST	PetStore_S01_PetSearch_104_SelectFemalepuppy	request_40	1606226411906	1606226412152	OK	 
+GROUP	PetStore_S01_PetSearch_104_SelectFemalepuppy	1606226411644	1606226412153	506	OK
+REQUEST	PetStore_S01_PetSearch_105_AddToCart	request_41	1606226412154	1606226413065	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+GROUP	PetStore_S01_PetSearch_105_AddToCart	1606226412153	1606226413067	911	KO
+REQUEST	PetStore_S01_PetSearch_106_Logout	request_48	1606226413068	1606226413786	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+GROUP	PetStore_S01_PetSearch_106_Logout	1606226413067	1606226413787	718	KO
+USER	petsearch	END	1606226413791

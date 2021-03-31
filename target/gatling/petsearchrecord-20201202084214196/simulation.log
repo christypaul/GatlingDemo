@@ -1,0 +1,8 @@
+RUN	sample.petsearchrecord	petsearchrecord	1606898534196	 	3.4.1
+USER	petsearchrecord	START	1606898536285
+REQUEST		request_0	1606898536312	1606898537238	KO	Check validator resolution crashed: Resource sample/petsearchrecord/0000_response.html not found
+REQUEST		request_16	1606898547371	1606898547662	KO	Check validator resolution crashed: Resource sample/petsearchrecord/0016_response.html not found
+REQUEST		request_27	1606898558672	1606898559642	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		request_31	1606898579647	1606898580267	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		request_38	1606898590270	1606898591442	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+USER	petsearchrecord	END	1606898591446

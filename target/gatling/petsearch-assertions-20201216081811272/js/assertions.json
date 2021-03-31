@@ -1,0 +1,18 @@
+{
+  "simulation": "sample.petsearch_Assertions",
+  "simulationId": "petsearch-assertions",
+  "start": 1608106691272,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+{
+  "path": "Searchfish_1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(Searchfish_1)",
+  "actualValue": [-1.0]
+}
+  ]
+}

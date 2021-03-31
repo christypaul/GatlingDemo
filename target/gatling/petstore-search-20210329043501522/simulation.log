@@ -1,0 +1,13 @@
+ASSERTION	AAIDAAECAwAAAAAAAECfQA==
+RUN	sample.Petstore_Search	petstore-search	1616992501522	 	3.4.1
+ERROR	LaunchURL_1: Failed to build request: DnsNameResolver missing from Session 	1616992503546
+GROUP	PetStore_S01_PetSearch_101_LaunchURL	1616992503538	1616992503550	0	KO
+ERROR	Login_1: Failed to build request: No attribute named 'C_jsessionId' is defined 	1616992503629
+ERROR	Login_2: Failed to build request: DnsNameResolver missing from Session 	1616992503630
+GROUP	PetStore_S01_PetSearch_102_Login	1616992503551	1616992503630	0	KO
+ERROR	Searchfish_1: Failed to build request: DnsNameResolver missing from Session 	1616992503630
+GROUP	PetStore_S01_PetSearch_103_Searchfish	1616992503630	1616992503631	0	KO
+ERROR	Logout_1: Failed to build request: DnsNameResolver missing from Session 	1616992503631
+GROUP	PetStore_S01_PetSearch_106_Logout	1616992503631	1616992503632	0	KO
+USER	petsearch	START	1616992503530
+USER	petsearch	END	1616992503639

@@ -1,0 +1,18 @@
+{
+  "simulation": "sample.petsearch_Assertions",
+  "simulationId": "petsearch-assertions",
+  "start": 1606914254500,
+  "description": "",
+  "scenarios": ["petsearch"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [8000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 8000.0",
+  "actualValue": [1285.0]
+}
+  ]
+}

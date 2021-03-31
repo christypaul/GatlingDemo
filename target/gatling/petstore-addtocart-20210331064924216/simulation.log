@@ -1,0 +1,33 @@
+RUN	sample.Petstore_Addtocart	petstore-addtocart	1617173364216	 	3.4.1
+USER	AddToCart	START	1617173377017
+REQUEST	PetStore_AddToCart_T01_LaunchURL	request_0	1617173377144	1617173378119	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	favicon.gif.xhtml	1617173378606	1617173379237	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	style.css.xhtml;jsessionid=Y6mXOfZOSM2cH8Sp-rf2HiUzH4zjs368Fs-C7FXB.ip-172-31-82-187	1617173378637	1617173379274	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	sticky-footer-navbar.css.xhtml;jsessionid=Y6mXOfZOSM2cH8Sp-rf2HiUzH4zjs368Fs-C7FXB.ip-172-31-82-187	1617173378609	1617173379329	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	theme.css.xhtml?ln=primefaces-bootstrap	1617173378618	1617173379512	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	font-awesome.css.xhtml?ln=primefaces&v=6.1	1617173378598	1617173379563	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	bootstrap.min.css.xhtml;jsessionid=Y6mXOfZOSM2cH8Sp-rf2HiUzH4zjs368Fs-C7FXB.ip-172-31-82-187?ln=webjars	1617173378590	1617173379731	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	jquery.min.js.xhtml;jsessionid=Y6mXOfZOSM2cH8Sp-rf2HiUzH4zjs368Fs-C7FXB.ip-172-31-82-187?ln=webjars	1617173378613	1617173379760	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	bootstrap.min.js.xhtml;jsessionid=Y6mXOfZOSM2cH8Sp-rf2HiUzH4zjs368Fs-C7FXB.ip-172-31-82-187?ln=webjars	1617173378645	1617173379778	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	splash.gif.xhtml	1617173378622	1617173379782	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	font-awesome.css.xhtml;jsessionid=Y6mXOfZOSM2cH8Sp-rf2HiUzH4zjs368Fs-C7FXB.ip-172-31-82-187?ln=webjars	1617173378655	1617173379787	OK	 
+REQUEST	PetStore_AddToCart_T01_LaunchURL	jsf.js.xhtml;jsessionid=Y6mXOfZOSM2cH8Sp-rf2HiUzH4zjs368Fs-C7FXB.ip-172-31-82-187?ln=javax.faces	1617173378629	1617173379825	OK	 
+GROUP	PetStore_AddToCart_T01_LaunchURL	1617173377034	1617173379826	2277	OK
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	request_11	1617173381831	1617173382119	OK	 
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	style.css.xhtml	1617173382139	1617173382413	OK	 
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	sticky-footer-navbar.css.xhtml	1617173382135	1617173382427	OK	 
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	jsf.js.xhtml?ln=javax.faces	1617173382141	1617173382699	OK	 
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	font-awesome.css.xhtml?ln=webjars	1617173382133	1617173382955	OK	 
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	bootstrap.min.js.xhtml?ln=webjars	1617173382131	1617173382989	OK	 
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	jquery.min.js.xhtml?ln=webjars	1617173382138	1617173382993	OK	 
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	bootstrap.min.css.xhtml?ln=webjars	1617173382130	1617173383234	OK	 
+GROUP	PetStore_AddToCart_T02_ClickLogInButton	1617173381831	1617173383237	1397	OK
+REQUEST	PetStore_AddToCart_T03_ClickSignIn	request_15	1617173385244	1617173385871	KO	status.find.is(200), but actually found 500
+GROUP	PetStore_AddToCart_T03_ClickSignIn	1617173385239	1617173385879	627	KO
+REQUEST	PetStore_AddToCart_T01_LaunchURL	request_0	1617173385883	1617173386165	OK	 
+GROUP	PetStore_AddToCart_T01_LaunchURL	1617173385883	1617173386174	284	OK
+REQUEST	PetStore_AddToCart_T02_ClickLogInButton	request_11	1617173388176	1617173388477	OK	 
+GROUP	PetStore_AddToCart_T02_ClickLogInButton	1617173388176	1617173388483	302	OK
+REQUEST	PetStore_AddToCart_T03_ClickSignIn	request_15	1617173390485	1617173391049	KO	status.find.is(200), but actually found 500
+GROUP	PetStore_AddToCart_T03_ClickSignIn	1617173390485	1617173391050	564	KO
+USER	AddToCart	END	1617173391054
